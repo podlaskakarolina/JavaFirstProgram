@@ -56,9 +56,11 @@ public class IncrementAndDecrementOperators {
         int d = 100;
         int b = d++;
         int c = ++d;
+        //int e = ++(++d);
         System.out.println("value of d is "+ d);//102
         System.out.println("value of b is "+ b);//100 nie ma lipy bym to zrozumiale wytlumaczyla komus :D
         System.out.println("value of c is "+ c);//102
+        //System.out.println("value of e is "+ e);//102 not valid code 0 why?
 
 
     }
