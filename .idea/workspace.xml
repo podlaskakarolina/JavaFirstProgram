@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2412881d-4ed9-482f-9413-c1b1fd325872" name="Changes" comment="Primitive data types added in comments - Increment and Decrement Class added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImplicitTypeCasting/ImplicitTypeCasting.java" afterDir="false" />
+    <list default="true" id="2412881d-4ed9-482f-9413-c1b1fd325872" name="Changes" comment="ImplicitTypeCasting added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IncrementDecrementOperators/IncrementAndDecrementOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IncrementDecrementOperators/IncrementAndDecrementOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImplicitTypeCasting/ImplicitTypeCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImplicitTypeCasting/ImplicitTypeCasting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IncrementAndDecrementOperators">
+  <component name="RunManager" selected="Application.ImplicitTypeCasting">
+    <configuration name="ImplicitTypeCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImplicitTypeCasting.ImplicitTypeCasting" />
+      <module name="JavaFirstProgram.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImplicitTypeCasting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IncrementAndDecrementOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IncrementDecrementOperators.IncrementAndDecrementOperators" />
       <module name="JavaFirstProgram.main" />
@@ -81,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImplicitTypeCasting" />
         <item itemvalue="Application.IncrementAndDecrementOperators" />
         <item itemvalue="Application.Main" />
       </list>
@@ -109,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677688539438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ImplicitTypeCasting added">
+      <created>1677697162196</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677697162196</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primitive data types added in comments - learning in process" />
     <MESSAGE value="Primitive data types added in comments - Increment and Decrement Class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primitive data types added in comments - Increment and Decrement Class added" />
+    <MESSAGE value="ImplicitTypeCasting added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ImplicitTypeCasting added" />
   </component>
 </project>
