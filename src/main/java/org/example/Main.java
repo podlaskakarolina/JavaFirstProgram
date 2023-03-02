@@ -1,5 +1,7 @@
 package org.example;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -90,7 +92,48 @@ public class Main {
         System.out.println("a++ ="+ a++ + " doesn't work");
         System.out.println("a++ ="+ a + " does");
         System.out.println("a-- ="+ (a--));
+        /* METODY
+        <typ zwracany> <nazwa metody>(<opcjonalna lista argumentów>) {
+        <ciało metody>
+        boolean isBig(int someNumber) {
+        return someNumber > 100;
+        }
+        */
+        int temperature = -12;
+        int height = 186;
+        int distance = 2589;
+        int numberOfErrors = 0;
+        //String przechowuje łańcuchy znaków
+        String name = "Marcin";
+        String weekday = "Monday";
+        String someSentence = "Samouczek Programisty jest git ;)";
+        }
+        /*Metoda może zwracać jakąś wartość. Do zwrócenia wartości z metody służy słowo kluczowe return.
+        Na przykład metoda niżej nie pobiera żadnych argumentów i zwraca łańcuch znaków:
+
+        String getName() {
+            return "Marcin";
+        }
+
+        Metoda może także nie zwracać żadnej wartości, wówczas używa się słowa kluczowego void do
+        określenia typu zwracanej wartości. Na przykład metoda poniżej nie przyjmuje żadnych argumentów i
+        nie zwraca żadnej wartości:
+
+        void printSomething() {
+        System.out.println("Something");
+        }
+        ! W języku Java nie jest możliwe zwracanie wielu wartości.
+        Metoda może nie zwrócić nic (void) lub pojedynczą wartość.
+
+        DEFINICJA METODY A JEJ WYWOŁANIE
+
+         */
+        boolean isBig(int someNumber) {
+            return someNumber > 100;
+        } //To jest definicja
+
+        boolean someVariable = isBig(10); //to jest wywołanie metody isBig
+
 
     }
 
-}

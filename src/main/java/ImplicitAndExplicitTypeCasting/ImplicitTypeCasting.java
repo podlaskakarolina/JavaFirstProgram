@@ -1,4 +1,4 @@
-package ImplicitTypeCasting;
+package ImplicitAndExplicitTypeCasting;
 
 public class ImplicitTypeCasting {
     public static void main(String[] args) {
