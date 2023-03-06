@@ -5,14 +5,14 @@ public class ExplicitTypeCasting {
         /*
         ExplicitTypeCasting
          */
-        int x = 400;
+        int x = 900;
         byte a = (byte) x;
         System.out.println("mamy int x " + x +" zmieniamy na byte a " + a);
         //TODO czemu -122?
         byte minByte=-128;
         byte maxByte=127;
-        int range = maxByte - minByte;
-        int kombinuj = x - range;
+        int range = maxByte - minByte + 1;
+        int kombinuj = x - 4 *range;
         System.out.println(kombinuj);//przeliczylo na ASCII?
 
 
