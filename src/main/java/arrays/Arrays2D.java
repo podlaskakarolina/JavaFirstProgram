@@ -27,5 +27,20 @@ public class Arrays2D {
         System.out.println("print nowaTablica[4] :"+nowaTablica[4]);
         //nie moge wczytac tabeli bez petli ale moge wczytac rozmiar tablicy
         System.out.println("Rozmiar tablicy nowaTablica :"+nowaTablica.length);
+        //*****sorry za śmietnik - potrzebowalam pilnie notatnika
+        int a = 4;
+        int b = a++;
+        int c = --a + b++;
+        int result = ++a - (c++ - b) + c;
+        System.out.println(result);
+        char ch = 65;
+        System.out.println(ch);
+        char cha = '\u0031' + '\u0035';
+        System.out.println(cha);
+        char chb = 'e';
+        chb -= 'a';
+        chb++;
+        chb += 'b';
+        System.out.println(chb);
     }
 }

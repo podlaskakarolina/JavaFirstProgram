@@ -17,11 +17,13 @@ public class ArraysMultiDim {
         double [][] tablicaDoubleDwuwymiarowa = {
                 {1,2,3},
                 {2,3,4},
-                {30,40,50}
+                {30,40,50},
+                {100,200,300}
         };
         System.out.println("Element 0x0 macierzy :"+tablicaDoubleDwuwymiarowa[0][0]);
         System.out.println("Element 1x2 macierzy "+tablicaDoubleDwuwymiarowa[1][2]); //najpierw idzie po wierszach potem po kolumnach
-
+        System.out.println("Rozmiar calej tablicy/macierzy " + tablicaDoubleDwuwymiarowa.length);
+        System.out.println("Rozmiar kolumny[0] " + tablicaDoubleDwuwymiarowa[0].length);
 
 
     }
